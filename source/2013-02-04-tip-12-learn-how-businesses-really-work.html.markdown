@@ -1,5 +1,5 @@
 ---
-title: Tip 12: Learn How Businesses Really Work
+title: Tip 12 - Learn How Businesses Really Work
 date: 2013-02-04 07:54 -07:00
 tags:
 ---
