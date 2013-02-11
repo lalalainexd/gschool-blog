@@ -42,7 +42,7 @@ page "robots.txt", layout: false
 page "humans.txt", layout: false
 page "feed.xml", layout: false
 page "style.html", layout: "raw"
-
+Time.zone = "US/Mountain"
 
 #
 # With alternative layout
