@@ -21,3 +21,5 @@ to do a few things:
 
     * become a "virtual mentor" for whomever stumbles upon the blog
     * make my presence known to the community
+
+We'll see how this goes...
