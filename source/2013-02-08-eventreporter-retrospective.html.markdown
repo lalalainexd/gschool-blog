@@ -11,7 +11,7 @@ cache or sorts and the user could print or save the queries to a new csv. There
 were some basic commands we had to implement and afterwards, if we felt
 adventurous, we could try out implementing some extensions.
 
-I bombed it. I totally and completely bombed this project. As someone who has
+I *bombed* it. I totally and completely bombed this project. As someone who has
 been programming for a while now, "embarassed" does not even begin to express
 how the total shame I felt when it was time to turn in the project.
 
@@ -39,7 +39,9 @@ TDD" but deep down I knew that wasn't why. I was trying to be fancy by learning
 some things about ruby such creating methods with optional parameters. I was
 spending too much time with the details and forgot about the project. 
 
-So when it was time to turn in the project, the most my program could do well
-was run and quit. Nothing else.
+So when it was time to turn in the project, the most my program could do was
+run and quit.
 
-
+What did I learn? Besides lots of little ruby things... I'm more proud than I
+realized. I thought this project was below me, but it wasn't. I should have
+approached it more simply, finish the project then improve it after.
