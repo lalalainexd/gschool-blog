@@ -40,50 +40,52 @@ Ruby makes it extremely easy to write beautiful, *eloquent*,
 readable code. Taking the book's Document example, this is what the code might
 look like in Java:
 
-    public class Document {
-    String title;
-    String author;
-    String content;
+public class Document {
+String title;
+String author;
+String content;
 
-    public Document(String title, String author, String content) {
-        this.title = title;
-        this.author = author;
-        this.content = content;
+```java
+public Document(String title, String author, String content) {
+    this.title = title;
+    this.author = author;
+    this.content = content;
 
-    }
+}
 
-    public String[] words() {
-        return content.split(" ");
-    }
+public String[] words() {
+    return content.split(" ");
+}
 
-    public int wordCount() {
-        words().length;
-    }
+public int wordCount() {
+    words().length;
+}
 
-    public String getTitle() {
-        return title;
-    }
+public String getTitle() {
+    return title;
+}
 
-    public String setTitle(String title) {
-        this.title = title;
-    }
+public String setTitle(String title) {
+    this.title = title;
+}
 
-    public String getAuthor() {
-        return author;
-    }
+public String getAuthor() {
+    return author;
+}
 
-    public String setAuthor(String author) {
-        this.author = author;
-    }
+public String setAuthor(String author) {
+    this.author = author;
+}
 
-    public String getContent() {
-        return content;
-    }
+public String getContent() {
+    return content;
+}
 
-    public String setContent(String content) {
-        this.content = content;
-    }
-    }
+public String setContent(String content) {
+    this.content = content;
+}
+}
+```
 
 *Phew* That took a bit of effort. This is a LOT more code than the example in the book. While it's readable, there's a lot of extra stuff in it compared to the ruby version. You must be
 explicit about EVERYTHING. Having that much detail can be distracting when
@@ -92,30 +94,31 @@ you're looking at the code and simply trying to understand what it does.
 Now, going with the book's example again, what if we want Document to use an
 Author class? You'd have to change a few things...
 
-    public class Document {
-    String title;
-    Author author;
-    String content;
+```java
+public class Document {
+String title;
+Author author;
+String content;
 
-    public Document(String title, Author author, String content) {
-        this.title = title;
-        this.author = author;
-        this.content = content;
+public Document(String title, Author author, String content) {
+    this.title = title;
+    this.author = author;
+    this.content = content;
 
-    }
+}
 
-    public Author getAuthor() {
-        return author;
-    }
+public Author getAuthor() {
+    return author;
+}
 
-    public Author setAuthor(String author) {
-        this.author = author;
-    }
+public Author setAuthor(String author) {
+    this.author = author;
+}
 
-    //other methods...
+//other methods...
 
-    }
-
+}
+```
 It's not a lot of work, but wouldn't you rather not have to do anythign at all?
 Furthermore, you can instantly see that there's a dependency there. Document
 is tied to Author (or interface.. whatever it might be). In Java, it's very easy to create tightly coupled classes. Bad dependencies are everywhere. The code becomes rigid and difficult to handle later on.
