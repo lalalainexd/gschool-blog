@@ -4,7 +4,7 @@ date: 2013-03-08 09:02 -07:00
 tags:
 ---
 
-##TrafficSpy
+###TrafficSpy
 
 This week we finished the TrafficSpy project. This was by far, the most fun
 project we've had so far. I really appreciate building the web app with sinatra
@@ -35,7 +35,7 @@ improve TrafficSpy, I'm going to take a more BDD approach and get practice in
 thinking in the mindset of my user and clients. I'm getting comfortable with TDD
 so it seems natural to try out BDD.
 
-##Obama for America
+###Obama for America
 
 Yesterday, the tech leads of Obama for America had a Q&A session at Galvanize.
 What stuck out the most to me is all the effort they put into testing. They
@@ -46,15 +46,15 @@ holes you can in your application, find all the failing points, and figure out
 how to deal with them. That way, when it actually matters, you and your team
 won't be freaking out and madly rushing to find a patch while losing business.
 
-##Big Picture
+###Big Picture
 
-###Project Management
+####Project Management
 This time around, my group wasn't as good with using pivotal, which is kind of
 sad considering that we basically had all the stories listed out so it should
 have been *easy* to use it. For the future projects, I'm going to try and push
 my group to use it effectively and write better stories.
 
-###Open Source
+####Open Source
 I'm still iffy about working on open source projects. I haven't seen any that
 I would really like to contribute too, but then again I haven't really looked
 into any either. I wonder if Jeff would let me work on my own little gem...
