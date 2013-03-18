@@ -1,7 +1,8 @@
 - wrap_layout :layout do
-  %h2= current_page.data.title
-  %article
-    = yield
+  .panel.post
+    %h2= current_page.data.title
+    %article
+      = yield
 
   #disqus_thread
     :javascript
