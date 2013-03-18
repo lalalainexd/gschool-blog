@@ -14,11 +14,11 @@ per_page: 5
           %p= "#{article.summary} #{link_to "Read more >> ", article}"
 
 .row
-  .six.columns
+  .six.columns.prev_paginate
     - if prev_page
-      = link_to 'Previous page', prev_page
+      = link_to '<< Previous page', prev_page
 
-  .six.columns
+  .six.columns.next_paginate
     - if paginate
       - if next_page
-        =link_to 'Next page', next_page
+        =link_to 'Next page >>', next_page

@@ -111,3 +111,12 @@ aside ul.disc {
   padding: 10px 20px;
 }
 
+.prev_paginate {
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.next_paginate {
+	text-align: right;
+	padding-bottom: 20px;
+}
