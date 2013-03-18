@@ -11,48 +11,35 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
     %title= data.page.title
     / Included CSS Files
-    = stylesheet_link_tag "app", "theme", "ghfm"
+    /= stylesheet_link_tag "app", "theme", "ghfm"
+    = stylesheet_link_tag "app", "lala_v1", "ghfm"
     = javascript_include_tag "foundation/modernizr.foundation"
     %link{rel: "alternate", type: "application/rss+xml", title:"RSS Feed", href: "feed.xml"}
 
   %body{class: page_classes}
     .row
       .twelve.columns
-        %h2
+        %h1
           %a{href: "/"}= data.site.title
-        %hr
     .row
-      .eight.columns
-        = yield
       / Application Javascript, safe to override
       = javascript_include_tag "app"
       %aside.four.columns
-        .panel
-          %img{:src=>data.site.profile_url}
-          - if paginate
-            %p
-              Page
-              = page_number
-              of
-              = num_pages
-        %dl.tabs
-          %dd.active
-            %a{href: "#recent"} Recent Articles
-          %dd
-            %a{href: "#tags"} Tags
-        %ul.tabs-content
-          %li#recentTab.active
-            %h4 Recent Articles
-            %ul.disc
-              - blog.articles[0...10].each do |article|
-                %li
-                  %a{href: "#{article.url}"}
-                    = article.title
-                  %span= article.date.strftime('%b %e')
-          %li#tagsTab
-            %h4 Tags
-            %ul.disc
-              - blog.tags.each do |tag, articles|
-                %li
-                  %a{href: "#{tag_path tag}"}
-                    = "#{tag} (#{articles.size})"
+        %h4 Recent Articles
+        %ul.disc
+          - blog.articles[0...10].each do |article|
+            %li
+              %a{href: "#{article.url}"}
+                - if article.title.size > 30
+                  = "#{article.title[0...27]}..."
+                - else
+                  = article.title
+              %span= article.date.strftime('%b %e')
+        %h4 Tags
+        %ul.disc
+          - blog.tags.each do |tag, articles|
+            %li
+              %a{href: "#{tag_path tag}"}
+                = "#{tag} (#{articles.size})"
+      .eight.columns
+        = yield
