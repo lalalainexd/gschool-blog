@@ -1,0 +1,83 @@
+!!!
+%html
+  %head
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1"}
+    %title Lalalainexd's Resume
+    %meta{:content => content_for?(:description) ? yield(:description) : "E-things", :name => "The place to be all things E!"}
+    = stylesheet_link_tag "main", "normalize", "resume"
+    = javascript_include_tag "main", "plugins"
+  %body
+    %section#basic-info
+      %img.profile{src: "/images/resume_photo.jpg"}
+      %header
+        %h1 Elaine Tai
+        %section#contact-info
+          %ul
+            %li
+              %a{href: "http://github.com/lalalainexd"} github
+            %li
+              %a{href: "http://twitter.com/lalalainexd"} twitter
+            %li
+              %a{href: "http://www.linkedin.com/pub/elaine-tai/20/775/242"} linkedin
+        %section.skills
+          %h2 Skills
+          %ul
+            %li Ruby
+            %li Ruby on Rails
+            %li Java
+    %section#resume-info
+      %section#work-experience
+        %a{name: "work-experience"}
+        %h2 Work Experience
+        %article
+          %h3 Cougaar Software, Inc.
+          %ul.details
+            %li.date July 2011 - December 2012
+            %li.position Junior Software Engineer
+            %li Developed the front end of a highly scalable dynamic asychronous cooperative planning applicaiton suite
+            %li Extended and improved ActiveEdge for better unit testing of agens and plugins
+            %li Implemented and improved servies that are a key part of the Marine Corp Adaptive Planning project
+        %article
+          %h3 Spurlock Museum
+          %ul.details
+            %li.date February 2010 - September 2010
+            %li.position Creative Media and Technology Assistant
+            %li Tested and resolved bugs on an extensive php website
+            %li Maintained technology and artifact database
+            %li Responded to office technical support
+        %article
+          %h3 Liquor.com
+          %ul.details
+            %li.date Summer 2010
+            %li.position Intern
+            %li Updated and mainted website backed in WordPress
+            %li Customized visual design for email application
+      %section#education
+        %h2 Education
+        %article
+          %h3 gSchool
+          %ul.details
+            %li.date Currently Attending
+        %article
+          %h3 Boston University Center for Digital Imaging Arts
+          %ul.details
+            %li.date Completed in May 2012
+            %li Graphic Design
+        %article
+          %h3 University of Illinois Urbana-Champaign
+          %ul.details
+            %li.date Graduated in May 2011
+            %li Bachelor of Science
+            %li Computer Science
+            %li GPA: 3.19/4.00
+      %section#projects
+        %h2 Projects
+        %a{name: "projects"}
+        %ul
+          %li Worked with a team to build a functional prototype for a web based PDF accessibility checking tool
+          %li Developed and research QuietQuestions, an educationallearning tool which provided a new way for lecturers and students to interact
+          %li Worked with a team to build an education, chemistry based 3D platformer game using Unity3D
+
+
+
+

@@ -3,7 +3,7 @@
 ###
 
 # ZURB Foundation
-require "zurb-foundation"
+#require "zurb-foundation"
 
 # Change Compass configuration
 # compass_config do |config|
@@ -42,6 +42,8 @@ page "robots.txt", layout: false
 page "humans.txt", layout: false
 page "feed.xml", layout: false
 page "style.html", layout: "raw"
+page "resume.html", layout:false
+
 Time.zone = "US/Mountain"
 
 #

@@ -1,0 +1,106 @@
+section, article {
+  margin: 0;
+  padding: 0;
+}
+
+#basic-info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 10;
+
+  padding: 10px 15px;
+  background-color: rgb(4, 99, 128);
+  color: #000;
+}
+
+a {
+  color: #FFD140
+}
+
+
+img.profile {
+  max-width:100%;
+  max-height: 100%;
+  margin: 0 auto;
+  border: 3px solid;
+  padding: 0;
+}
+
+#contact-info {
+  margin-bottom: 30px;
+}
+
+#contact-info ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#contact-info ul li {
+  margin: 0 5px;
+  display: inline;
+  padding: 0;
+}
+
+#resume-info {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+}
+
+#work-experience, #education, #projects {
+  position: absolute;
+  width: 90%;
+  padding: 0, 5%;
+}
+
+h1, h2, h3 {
+  margin: 10px 0 0 10px;
+  padding: 0;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 1px solid;
+  font-size: 50px;
+}
+
+#basic-info h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#work-experience {
+  top: 0;
+  left: 0;
+}
+
+ul {
+  margin: 10px 0;
+}
+
+#work-experience .position, .date {
+  list-style: none;
+  font-style: italic;
+}
+#work-experience .position {
+  font-weight: bold;
+}
+
+#education {
+  top: 0;
+  left: 95%;
+}
+
+#projects {
+  top: 0;
+  left: 190%;
+  padding-right: 20px;
+}
+
