@@ -1,0 +1,33 @@
+---
+title: Halway
+date: 2013-04-19 15:22 -06:00
+tags:
+---
+
+This week we turned in Son of Store Engine. This is probably my second most
+disastrous I've turned in. For this project, I let myself go a bit too much. By
+that, I mean I didn't stick to my processes. In fact, from the beginning I gave
+into scrappy coding. Cutting corners really kicked my team's butt. At the end of
+the project, there was so much technical debt to deal with, that I considered
+tearing up everything we did and starting over... So what went wrong and what
+went right? Let's start with what went right:
+
+  * Excellent communication with my teammates
+  * Much better use with pivotal tracker than in the past
+  * Pretty decent merging process
+
+And what went wrong? I'd say a lot of things.
+
+  * We weren't very good about testing.
+  * Our code wasn't DRY or WET, it was WETT - Write Everthing **THREE** Times
+    There was just way too much repetition in the code. It was a mess.
+  * The tests we did have weren't written well. Every merge would cause
+    failures. I think I spent three days total fixing broken tests.
+  * We spread ourselves too thin. There was a lot of work and we tried too hard
+    to just barely scrape by and meet the stories instead of working on just
+     few features and doing them well.
+  * I stayed up late *coughididntsleepcough* Wednesday night, fixing little bugs
+    here and there, but my team didn't have a chance to review the branch and
+    merge it in.
+
+
