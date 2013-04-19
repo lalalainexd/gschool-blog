@@ -1,5 +1,5 @@
 ---
-title: Halway
+title: Halfway
 date: 2013-04-19 15:22 -06:00
 tags:
 ---
