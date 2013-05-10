@@ -1,0 +1,64 @@
+---
+title: Week ... 15?
+date: 2013-05-10 11:05 -06:00
+tags:
+---
+
+###FeedEngine - RunLine
+
+For FeedEngine, my team is building an application that connects various running
+tracking applications. Users can create group runs and invite their friends on
+the run. Then, when they do run, regardless of what type of running tracker they
+use, such as fitbit, or daily mile, we will show group run information. Users
+can also get live updated information about the runs their friends go on.
+
+I'm really excited about this project since I think it's a product that people
+could use. There are a lot of different running applications available and they
+all do slightly different things to fit the needs of their users. I like that we
+can bring all these applications together to create a running community that
+doesn't force people to use a particular application.
+
+###Teamwork
+
+The team I'm on is composed of three guys and one girl, me. This team is very
+much a power team in the sense that we're very dedicated, reliable, able to
+discuss and solve problems at a higher level, and cooperative. At the same time
+we have very different personalities so the project could also go horribly wrong
+if we don't communciate well. We've all agreed to do group code reviews when
+submitting pull requests and we regularly check in on each other to see what the
+other members are doing.
+
+Another awesome about working with my current team is that I can actually focus
+on the frontend this time. I'm not going to disconnect myself completely from
+the backend of course, but I trust my other team members to be able to do the
+work well and at a good pace. I just hope I can do the same on the frontend.
+
+###Jobs
+
+After last week's retrospective, I've thought a bit more about what I'm looking
+for in a job, so in order of priority:
+
+  1. Pairing - at the LEAST 70% of time.. preferably 100% :)
+  2. Agiel development process
+  3. Regularly changing teams - I can get project ADD so to be able to work on
+     different teams and projects with different people helps with staying
+     interested
+  4. Ability to work on both frontend and backend
+  5. 20% project time
+  6. Ability to work remotely
+
+Company culture is probably one of the most important things for me, but
+I didn't list it since I'm still not completely sure about what I'm looking for.
+It's easy for me to say what I don't want however:
+
+  * No communication
+  * waterfall development
+  * Unrealistic expectations - my last company always promised way more than
+     they should have and this really stressed out the developers and put us in
+     positions where we made quick and dirty solutions that we would completely
+     regret later.
+
+How will I know when I've found the company that is the right fit? I don't know.
+I still need to think about it.
+
+
