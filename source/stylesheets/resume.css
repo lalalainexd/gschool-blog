@@ -14,6 +14,19 @@ section, article {
   padding: 10px 15px;
   background-color: rgb(4, 99, 128);
   color: #000;
+
+  box-shadow: 5px -5px 10px #888;
+}
+
+nav ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -36,6 +49,7 @@ img.profile {
 #contact-info ul {
   margin: 0 auto;
   padding: 0;
+  width: 45%;
 }
 
 #contact-info ul li {
@@ -57,7 +71,15 @@ img.profile {
   padding: 0, 5%;
 }
 
-h1, h2, h3 {
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+#resume-info h2, h3 {
   margin: 10px 0 0 10px;
   padding: 0;
 }
@@ -89,6 +111,7 @@ ul {
   list-style: none;
   font-style: italic;
 }
+
 #work-experience .position {
   font-weight: bold;
 }
