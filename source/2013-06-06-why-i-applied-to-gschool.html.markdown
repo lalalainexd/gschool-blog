@@ -32,7 +32,8 @@ Since doing Ruby on Rails I've built projects to learn about:
 * javascript/jquery/backbone
 * security
 * namespacing/scoping routes
-* caching via redis and memcache
+* indexing
+* caching via redis
 * background workers via resque
 * having lots of skinny models and skinny controllers to keep our code maintainable
 * how/when to break up our views into partials
@@ -41,4 +42,10 @@ Since doing Ruby on Rails I've built projects to learn about:
 * how to build our own api
 * writing my own gem
 * service oriented architecture
+* ... and so much more
 
+In addition to these technologies, I've met a ton of people in the rails and startup community. It's so exciting and inspiring to be around all these entrepreneurs who are taking chances to work for something they are passionate about. Also, every Friday we get to meet, either in person or through video chat, a well known professional in the community: Jason Fried, DHH, Sandi Metz, Aaron Patterson, Jose Valim, Chad Fowler... just to name a few.
+
+Oh and I can't forget to mention my mentor, Austen Ito!! I was lucky enough to be paired with Austen, a former Hungry Academy student who now works for LivingSocial. He's been amazing. We regularly pair remotely and he'll help me out a ton on our projects and help me think about how to approach various problems. I've learned so much from him, and he's definitely part of the reason I love pairing so much! (THANKS A BUNCH AUSTEN!)
+
+Being part of gSchool is amazing. If I had to do it all over again, I'd be more than happy to. So if you can't tell, I love being part of gSchool.
