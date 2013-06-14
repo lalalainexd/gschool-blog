@@ -1,0 +1,40 @@
+---
+title: Week 20
+date: 2013-06-14 14:25 -06:00
+tags:
+---
+
+###Service Project
+I MISSED BEING IN A GROUP!!! I MISSED PAIRING!!! I'm so happy to be working with
+people.
+
+I've been imagining services to be the same as interacting with REST apis, and I'm
+pretty sure that is the correct general understanding so it's not crazy. The
+most difficult part is knowing how to break the app. It's really hard building
+an application from scratch and going straight for a service oriented approach.
+We don't know what we need to optimize and we're not completely sure about how
+the different parts will interact. It's kind of scary.
+
+###Job Hunt
+It's been okay. I have a list, but haven't contacted or applied to most of the
+companies. Part of that is because I have an interview with one of my top
+choices, and I'm kind of waiting to see where that goes before I put myself out
+on the market even more. It's probably not a good approach... now that I'm
+thinking about it, I think I'll be applying to more jobs at the end of today.
+
+I don't really have any next steps, besides continue to look for companies that
+interest me and apply to those. I still want to work for a consultancy since
+I think that's where I can get the most breadth of experience, and I hope that
+I'll also be able to get experience with working with clients. It's an
+experience that I'm severely lacking in, and I think being able to deal with
+clients will help with my communication, people and project management skills in the
+future.
+
+I've learned how to show my passion for programming. Before gSchool, I knew
+I was passionate about programming, but I didn't know how to talk about it or
+how to show it. I was too shy to put my code on github and was afraid about not
+knowing. After talking to people from Quick Left, Hashrocket, thoughtbot, etc.
+I've learned that it's okay that I don't know everything and that I'm not the
+best, but I need to put myself out there more, talk about my interests a lot
+more, and being willing to share my code and projects to prove that I really
+love programming.
